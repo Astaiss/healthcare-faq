@@ -24,8 +24,8 @@ This project allows users to ask questions, retrieves semantically relevant FAQ 
 
 ### 1. Clone the Repository
 ```
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/Astaiss/healthcare-faq.git
+cd healthcare-faq
 ```
 
 ### 2. Install Dependencies
