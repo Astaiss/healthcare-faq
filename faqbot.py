@@ -66,33 +66,3 @@ top_paragraphs = search_top_k(query_text, k=3)
 response = invoke_gemini(query_text, "\n".join([para['text'] for para in top_paragraphs]))
 print(f"\nFAQBot Response:\n{response}")
 
-
-"""
-Result 1:
-Dental services include cleanings, fillings, extractions, and oral cancer screenings. Pediatric dentistry ensures children’s teeth develop properly. Orthodontic consultations evaluate the need for braces or aligners. Gum disease treatment prevents tooth loss and systemic health issues. Emergency dental care is available for severe pain or trauma.
-
-Result 2:
-Our healthcare facility provides a wide range of medical services, including primary care, emergency treatment, and specialized diagnostics. We are committed to delivering high-quality, patient-centered care in a safe and compassionate environment. Appointments can be scheduled online, by phone, or in person at our reception desk. Walk-ins are accommodated based on availability, though scheduling in advance is recommended for shorter wait times. Our team consists of board-certified physicians, nurses, and specialists dedicated to meeting your healthcare needs.
-
-Result 3:
-This comprehensive overview ensures patients understand available services, policies, and advancements in healthcare. For further details, please contact our facility directly.
-
-"""
-
-"""
-We offer cleanings, fillings, extractions, oral cancer screenings, pediatric dentistry, orthodontic consultations, gum disease treatment, and emergency dental care.
-"""
-
-"""
-{
-  "fields": [
-    {
-      "type": "vector",
-      "path": "embedding",
-      "numDimensions": 768,
-      "similarity": "cosine"
-    }
-  ]
-}
-
-"""

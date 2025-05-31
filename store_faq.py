@@ -57,6 +57,3 @@ def embed_and_store_paragraphs(file_path):
 
 embed_and_store_paragraphs("faq.txt")
 
-"""
-Inserted 54 paragraphs into MongoDB.
-"""
