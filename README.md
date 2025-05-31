@@ -143,5 +143,5 @@ We offer cleanings, fillings, extractions, oral cancer screenings, pediatric den
 
 ## License
 
-MIT License
+[MIT License](./LICENSE.md)
 
